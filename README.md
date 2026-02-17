@@ -1,2 +1,5 @@
 # o-ran-testbed
 This project implements a high-fidelity O-RAN (Open RAN) testing environment designed to evaluate the security and performance of a disaggregated 5G network. By leveraging the srsRAN Project to realize a functional CU/DU (Centralized Unit/Distributed Unit) split and integrating it with the Open5GS core and the OSC Near-Real-Time RIC, the testbed mimics a production-grade cloud-native RAN architecture. The primary research objective focuses on O-RAN security, specifically investigating vulnerabilities within the Shared Data Layer (SDL) and the potential risks introduced by third-party xApps. Through this setup, we aim to analyze data isolation mechanisms and develop mitigation strategies to ensure the integrity of the RIC’s data-sharing environment in a multi-vendor ecosystem.
+
+srsRAN: https://docs.srsran.com/projects/project/en/latest/user_manuals/source/installation.html
+Near-RT-RIC: https://docs.o-ran-sc.org/projects/o-ran-sc-ric-plt-ric-dep/en/latest/installation-guides.html#installing-near-realtime-ric-in-ric-cluster
